@@ -14,7 +14,7 @@ public abstract class Pessoa {
     private String nome;
     private ArrayList<Conta> listacontas;
     public Pessoa(String nome, ArrayList<Conta> listacontas){
-        this. = -;
+        this.nome = nome;
         this.listacontas =  listacontas;
     }
     public ArrayList getListaContas(){

@@ -13,20 +13,38 @@ public abstract class Conta implements OperacaoBancaria {
     private double saldo = 0;
     private Agencia agencia;
     
-    public Conta(int num, Agencia agencia){
-        this.numero = ;
-        this. = agencia;
+    public Conta(int numero, Agencia agencia){
+        this.numero = numero;
+        this.agencia = agencia;
     }
     
     
     public double getSaldo(){
-        return -
+        return saldo;
     }
-    
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+    public Agencia getAgencia() {
+        return agencia;
+    }
+
+    public void setAgencia(Agencia agencia) {
+        this.agencia = agencia;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
     public void depositar(double valor){
-        this.saldo = this.saldo + valor;;;; 
+        this.saldo = this.saldo + valor;
     }
-    
     public void sacar(double valor){
         if (this.saldo >= valor){
             this.saldo = this.saldo - valor; 

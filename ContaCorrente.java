@@ -15,7 +15,7 @@ public class ContaCorrente extends Conta{
         super(numero, agencia);
         this.salario = salario;
     }
-
+    
     @Override
     public void imprimir() {
         System.out.println("Seu salário é : "+this.salario);
