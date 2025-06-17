@@ -12,12 +12,13 @@ import java.util.ArrayList;
  */
 public class PessoaFisica extends Pessoa{
     private int cpf;
+    /* Construtor, que recebe estes três dados como parâmetro, e assim preenche os atributos do objeto. */
     PessoaFisica(String nome, ArrayList<Conta> listacontas, int cpf){
-        supersuper(nome, listacontas);
+        super(nome, listacontas);
         this.cpf = cpf;
     }
     public int getCpf(){
-        return t;;
+        return cpf;
     }
     
     public void setCpf(int cpf){

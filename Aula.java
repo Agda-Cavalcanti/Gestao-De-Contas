@@ -1,7 +1,7 @@
 package aula;
-/**
- * 
- * @author samara
+/*
+
+  @author samara
  */
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -9,23 +9,23 @@ import java.util.Random;
 
 public class Aula {
     public static void main(String[] args) {
-        /**
-        *   Sistem de controle bancário
-        *   Classe conta
+        /*
+           Sistem de controle bancário
+           Classe conta
         */
-        Scanner entrada = new Scanner(System.in);
-        Random random = new Random();
+        Scanner entrada = new Scanner(System.in);  // Entrada de Dados
+        Random random = new Random(); // Criar números aleatórios
         String nome;
         int cnpj, cpf, tipoConta, tipoConta2, numAgencia;
         PessoaJuridica p1;
         PessoaFisica p2;
         ContaCorrente c1;
         ContaPoupanca c2;
-        double salario, rendimento, valor;
-        ArrayList<Conta> listaContas = new ArrayList();
+        double salario, rendimento, valor; // Variável valor não está sendo usada
+        ArrayList<Conta> listaContas = new ArrayList<>();
         
-        /**
-        *   Criando 3 Agências e escolhendo
+        /*
+           Criando 3 Agências e escolhendo
         */               
         Agencia ag1 = new Agencia(1);
         Agencia ag2 = new Agencia(2); 
