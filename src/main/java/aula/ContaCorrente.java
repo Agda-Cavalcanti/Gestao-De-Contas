@@ -25,7 +25,7 @@ public class ContaCorrente extends Conta{
         return this.salario;
     }
     
-    public void setSalario(int salario){
+    public void setSalario(double salario){
         this.salario = salario;
     }       
 }
