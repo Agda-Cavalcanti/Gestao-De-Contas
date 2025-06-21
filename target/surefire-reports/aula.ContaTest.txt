@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: aula.ContaTest
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s -- in aula.ContaTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 s -- in aula.ContaTest
